@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>item u chosse</title>
+    <link rel="stylesheet" href="item2.css">
+    <script src="https://kit.fontawesome.com/98638255fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="phamhaianhdemo.html">
+            <i class="fa-solid fa-house fa-spin fa-spin-reverse" style="color: #ffffff;"></i>
+        </a>
+        <h1>product inform</h1>
+    </header>
+    <main>
+        <section class="product-details">
+            <img src="img/images (1).jpg" alt="Product Image">
+            <div>
+                <h2>Product Name:ghost cake</h2>
+                <p>price: $19,99$</p>
+            </div>
+        </section>
+        <section class="order-form">
+            <h2>order</h2>
+            <form>
+                <label for="quantity">product number:</label>
+                <input type="number" id="quantity" min="1" required>
+                <label>address:</label>
+                <input type="text" id="address" required>
+                <label>phoneNumber:</label>
+                <input type="number" id="phoneNumber" required>
+                <label>payments:</label>
+                <select id="paymentMethod" required>
+                    <option value="">Credit Card</option>
+                    <option value="">PayPal</option>
+                    <option value="">cash</option>
+                </select>
+                <button type="submit">order</button>
+            </form>
+        </section>
+    </main>
+    <script src="item2.js"></script>
+</body>
+</html>

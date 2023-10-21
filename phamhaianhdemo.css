@@ -1,0 +1,328 @@
+/*top menu*/
+
+.top-menu{
+    background-color: orange;
+    max-width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    font-size: 24px;
+    display: flex;
+}
+.search{
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+}
+.icon{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#submenu {
+    display: none;
+}
+#login:hover{
+background-color: white;
+}
+#login{
+    padding: 5px;
+    border-radius: 2px;
+}
+#sign:hover{
+    background-color: white;
+}
+#sign{
+    padding: 5px;
+    border-radius: 2px;
+}
+/*body*/
+.ok{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+/*các vật phẩm bán*/
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product2 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product2 img {
+    max-width: 100%;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product3 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product3 img {
+    max-width: 100%;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product4 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product4 img {
+    max-width: 100%;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product5 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product5 img {
+    width: 100%;
+    height: 230px !important;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product6 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product6 img {
+    max-width: 100%;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product7 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product7 img {
+    width: 50%;
+    height: 228px !important;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* */
+.product8 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.product8 img {
+    max-width: 50%;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9
+}
+.footer{
+    background-color: orange;
+    max-width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 16px;
+    font-size: 24px;
+}
+.slides{
+    height: 70vh;
+}
+body{
+    margin: 0px;
+}
+.product>img,.product2>img,.product3>img,.product4>img,.product5>img,.product6>img,.product7>img,.product8>img{
+    height: 200px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+}
+.footer>a{
+    margin-right: 20px;
+}
